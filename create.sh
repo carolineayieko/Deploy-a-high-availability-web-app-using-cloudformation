@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name project2cloud --template-body file://project2cloud.s "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
