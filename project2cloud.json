@@ -1,0 +1,37 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "project2-Udagram"
+	},
+    
+	{
+		"ParameterKey": "VpcCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	}
+    ,
+	{
+		"ParameterKey": "PubSubnet1CIDR",
+		"ParameterValue": "10.0.0.0/24"
+	},
+	{
+		"ParameterKey": "PubSubnet2CIDR",
+		"ParameterValue": "10.0.1.0/24"
+	},
+	{
+		"ParameterKey": "PrivSubnet1CIDR",
+		"ParameterValue": "10.0.2.0/24"
+	},
+	{
+		"ParameterKey": "PrivSubnet2CIDR",
+		"ParameterValue": "10.0.3.0/24"
+	},
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.medium"
+    },
+    {
+        "ParameterKey": "AMI",
+        "ParameterValue": "ami-0557a15b87f6559cf"
+    }
+
+]
