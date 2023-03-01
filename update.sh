@@ -1,0 +1,1 @@
+aws cloudformation update-stack --stack-name project2cloud --template-body file://project2cloud.yml  --parameters file://project2cloud.json --capabilities "CAPABILITY_IAM" "CAPAs "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
